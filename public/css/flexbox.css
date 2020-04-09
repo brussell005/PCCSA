@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    display: flex;
+    padding-top: 12px;
+  }
+  
+  nav ul {
+    width: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .content {
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .center {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    padding: 25px;
+    border-radius: 20px;
+    border: 1px solid #d3d3d3;
+  }
+  
+  .center form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .jumbotron {
+    color: black;
+    background-image: url("https://www.cips.org/PageFiles/136542/Plant-factory-mini-1160x430.jpg.ashx?width=1140&quality=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    text-align-last: center;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  label {
+    padding-bottom: 20px;
+    width: 80%;
+  }
+  
+  label > span {
+    display: none;
+  }
+  
+  input {
+    height: 20px;
+    width: 100%;
+  }
+  
+  button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+    background-color: #256fde;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+  }
