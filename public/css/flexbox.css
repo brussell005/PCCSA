@@ -53,6 +53,29 @@
     font-family: Arial, Helvetica, sans-serif;
   }
   
+  .jumbotronReg {
+    color: black;
+    background-image: url("https://www.saferbrand.com/media//articles/images/373/HydroponicTerminology_BlogLanding-768x411.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    text-align-last: center;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .jumbotronAbout {
+    color: black;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5654794ee4b026d39f7aa1e8/1507041114198-ENTWLO91EBJTBPL39VYC/ke17ZwdGBToddI8pDm48kOFMy7dXW7-AmbGZCmeKwMxZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpy0TfefWTzWPPpXmk5kCJ2jwGCqomAnUIeZW7AsKHgeXFokVb59zQT_K8LRRb0ZDsc/Hydroponic-Gardening_Vertical-Flood-And-Drain-Hydroponic-System.jpg?format=1500w");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    text-align-last: center;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
   label {
     padding-bottom: 20px;
     width: 80%;
