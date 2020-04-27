@@ -3,6 +3,9 @@
 ///Azalea City CSA///
 /////////////////////
 
+*********************Ignore the MySql API folder included here and just use the Mysql-api link from the Final App Post.
+*********************I could not figure out how to remove it! Thanks!
+
 ---Purpose---
 
 Semester Project creating a website that utilizes javascript, node.js, MySql, and Ajax
