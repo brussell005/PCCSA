@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <title>Your Items</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"></a>
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+        </ul>
+        <a class="owner-signin" href="../login.html">Give Employee Access</a>&nbsp;&nbsp;
+        <a id="logout" href="" onclick="doLogout(event)">Logout</a>
+        
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="item-form">
+        <form>
+          <div class="form-row">
+            <div class="col-md-6">
+              <label class="sr-only" for="formInputItemName">Item Name</label>
+              <input
+                id="formInputItemName"
+                class="form-control"
+                type="text"
+                name="task-name"
+                placeholder="Item Name"
+              />
+            </div>
+            <div class="col-md-3">
+              <label class="sr-only" for="formSelectStatus">Status</label>
+              <select
+                id="formSelectStatus"
+                class="custom-select mr-sm-2"
+                name="task-name"
+              >
+                <option value="1" selected>In stock</option>
+                <option value="2">Out of Stock</option>
+              </select>
+            </div>
+            <div class="col-md-3">
+              <button
+                type="submit"
+                class="btn btn-primary"
+                onclick="doAddItem(event)"
+              >
+                ADD
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div id="items">
+        <div>Loading...</div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="author">
+        <p>Author: <a href="https://github.com/brussell005">Brien Russell</a></p>
+      </div>
+    </footer>
+    <script src="../lib/api.config.js"></script>
+    <script src="../lib/simple-storage.js"></script>
+    <script src="../lib/service-helpers.js"></script>
+    <script src="../lib/auth.service.js"></script>
+    <script src="../lib/auth.js"></script>
+    <script src="../lib/auth.guard.js"></script>
+    <script src="./items-api.service.js"></script>
+    <script src="./inventory.service.js"></script>
+    <script src="./inventory.js"></script>
+    <script src="../app.js"></script>
+  </body>
+</html>
